@@ -1,27 +1,80 @@
 <!doctype html>
-<html>
-    <head>
-        <meta charset="ISO-8859-1">
-        <title>The KGS Micro-League</title>
-        <link rel="Stylesheet" href="styleNav.css"/>
-		<link rel="Stylesheet" href="styleExo.css"/>
-    </head>
-    <body class="contact">
-		<nav>
-			<h1>The KGS Micro-League</h1>
-			<p>Games, trainings, reviews!</p>
-			<ul class="mainNav">
-				<a href="index.html" class="introLink"><li>Introduction</li></a>
-				<a href="exo.html" class="exoLink"><li>Exercices</li></a>
-				<a href="tabResultat.html" class="resLink"><li>Resultat des tournois</li></a>
-				<a href="archives.html" class="archivesLink"><li>Archives</li></a>
-				<a href="news.html" class="newsLink"><li>News/activites</li></a>
-				<a href="contact.html" class="contactLink"><li>Contact</li></a>
-				<a><li></li></a>
-			</ul>
-		</nav>
-		<div> 	
-	
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<title>The KGS Micro-League</title>
+		<link rel="Stylesheet" href="styleNav.css"/>
+		<link rel="Stylesheet" href="styleContact.css"/>
+	</head>
+	<body class="contact">
+		<header>
+			<nav>
+				<h1>The KGS Micro-League</h1>
+				<p>
+					Games, trainings, reviews!
+				</p>
+				<ul class="mainNav">
+					<li><a href="index.html" class="introLink">Introduction</a></li>
+					<li><a href="exo.html" class="exoLink">Exercices</a></li>
+					<li><a href="tabResultat.html" class="resLink">Results</a></li>
+					<li><a href="archives.html" class="archivesLink">Archives</a></li>
+					<li><a href="news.html" class="newsLink">News/activities</a></li>
+					<li><a href="contact.html" class="contactLink">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div class="corps">
+			<h1>Veuillez compléter le formulaire pour vous inscrire à la ligue :</h1>
+			<form method="post" action="ContactResultat.php">
+				<p>
+					<label class="gauche" for="nom">Votre nom :</label>
+					<input type="text" class="boiteInput" name="nom" id="nom" placeholder="Ex : Schiltz" size="30" maxlength="10" />
+				</p>
+				<p>
+					<label class="gauche" for="prenom">Votre prénom :</label>
+					<input type="text" class="boiteInput" name="prenom" id="prenom" placeholder="Ex : Séverine" size="30" maxlength="10" />
+				</p>
+				<p>
+					<label class="gauche" for="dateN">Votre date de naissance :</label>
+					<input type="date" class="boiteInput" name="dateN" id="dateN"/>
+				</p>
+				<p>
+					<label class="gauche" for="mail">Votre mail :</label>
+					<input type="email" class="boiteInput" name="mail" id="mail"/>
+				</p>
+				<p>
+					<label class="gauche" for="niv">Votre niveau :</label>
+					<input type="number" class="boiteInput" id="niv" name="niv" min="1" max="20" step="1">
+					<input type="radio" name="grade" value="kyu" id="kyu" />
+					<label for="kyu">kyu</label>
+					<input type="radio" name="grade" value="dan" id="dan" />
+					<label for="dan">dan</label>
+				</p>
+				<p>
+					<label class="gauche" for="dec">Comment nous avez-vous découvert ?</label>
+					<select name="dec" id="dec">
+						<option value="presse">presse</option>
+						<option value="publicite">publicité</option>
+						<option value="ami">via un ami</option>
+						<option value="autre">autre</option>
+					</select>
+				</p>
+				<p>
+					<label class="gauche" for="commentaires">Vos commentaires :</label>
+					<textarea class="boiteInput" name="commentaires" id="commentaires"></textarea>
+				</p>
+				<div class="buttons">
+					<input type="submit" class="button" value="Envoyer" />
+					<input type="button" class="button" value="Annuler">
+				</div>
+			</form>
 		</div>
-    </body>
+		<footer>
+			<div class="copyright">
+				<p>
+					Séverine Schiltz, The KGS Micro-League
+				</p>
+			</div>
+		</footer>
+	</body>
 </html>
