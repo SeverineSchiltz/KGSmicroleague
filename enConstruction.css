@@ -1,0 +1,18 @@
+
+.corps p{
+	color: red;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: baseline;
+	display:inline-block;
+	position: relative;
+	bottom: 225px;
+	left:150px;
+}
+
+.corps figure{
+	max-width: 600px;
+	display:inline-block;
+	margin-left:350px;
+}

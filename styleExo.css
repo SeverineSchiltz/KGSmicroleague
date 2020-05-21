@@ -1,0 +1,60 @@
+
+figure
+{
+	margin-left: 40px;
+	margin-top:20px;
+	text-align: justify;
+	/*position : relative ;
+	*/
+	border: 5px solid rgb(160,194,205);
+	max-width:500px;
+	max-height: 600px;
+	vertical-align: middle;
+	background-color: rgb(160,194,205);
+	border-radius: 5px;
+	display: inline-block;
+}
+
+figcaption
+{
+	background-color: rgb(160,194,205);
+}
+
+/*figure img:hover
+{
+	max-width: 1000px;
+	max-height:1000px;
+}
+
+*/
+img
+{
+	max-width:500px;
+	max-height: 500px;
+}
+
+aside
+{
+	display: inline-block;
+	position:fixed;
+	border:1px solid rgb(160,194,205);
+	background-color: rgb(160,194,205);
+	width:168px;
+	border-radius: 5px;
+}
+
+aside ul
+{
+	list-style: none;
+	font-size:20px;
+	font-weight: bold;
+	font-family: serif;
+	font-variant:small-caps;
+	color: rgb(0,128,255);
+}
+
+article
+{
+	display: inline-block;
+	width: 1200px;
+}
