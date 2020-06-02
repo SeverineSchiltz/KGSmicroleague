@@ -1,0 +1,40 @@
+
+.new0, .new1{
+	width: 820px;
+	display: inline-block;
+}
+
+.alphago{
+  display: inline-block;
+  	position: relative;
+	bottom: 100px;
+}
+
+.alphago img{
+  max-width: 377px;
+  height: auto;
+
+}
+
+.new1{
+	position: relative;
+	top: 60px;
+	
+}
+
+.new0{
+	position: relative;
+	bottom: 150px;
+	
+}
+
+.new1 img{
+	max-width: 100px;
+	height: auto;
+	vertical-align:middle;
+}
+
+.new1 h1{
+	line-height:50px;
+}
+
