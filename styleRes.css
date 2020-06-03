@@ -5,7 +5,7 @@ table
 	border-spacing:0px;
 	/* Remplace border-collapse:collapse */
 	border-radius: 5px;
-	border:5px solid rgb(0,128,255);
+	border:5px solid rgb(96,168,108);
 }
 
 caption
@@ -17,7 +17,7 @@ caption
 
 thead
 {
-	background-color:rgb(0,128,255);
+	background-color:rgb(96,168,108);
 }
 
 td, th
@@ -44,12 +44,12 @@ tbody
 
 tbody tr:nth-child(odd)
 {
-	background-color: rgb(162,230,244);
+	background-color: rgb(160,203,168);
 }
 
 tbody tr:nth-child(even)
 {
-	background-color: rgb(124,219,239);
+	background-color: rgb(141,192,150);
 }
 
 tfoot td
